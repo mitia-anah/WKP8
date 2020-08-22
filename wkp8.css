@@ -39,7 +39,7 @@ label {
 }
 
 .show-list {
-    max-width: 500px;
+    max-width: 600px;
     border-radius: 6px;
     display: grid;
     row-gap: 0;
@@ -57,4 +57,9 @@ label {
 span {
     padding-inline-end: 1rem;
     padding-inline-start: 1rem;
+}
+
+.delete {
+    border-color: dodgerblue;
+    border-radius: 5px;
 }

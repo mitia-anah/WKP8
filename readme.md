@@ -1,45 +1,15 @@
-# WKP8
+# WKP8 
 
-Hello team! Here's the weekend project 8.
+## 1.structure
+        In this project, I've put some comments on every function to explain the meaning of the code. Then I started to work on each line of the function. I grabbed all the elements that I need first and after that I worked on each one of the function.
 
-We're going to build a hit parade.
+## To improve
+2. I couldn't manage to finish the project as the I ran out of time, but if I had more time, I would work on the filtering part, deleting button is not working too so I would fix  that as well.
 
-![./assets/hit-parade.jpg](./assets/hit-parade.jpg)
+## New thing to learn
+The truth is, I could have learnt new thing with this project if I were able to finish it until the end.
 
--   That's a list of songs, sorted from the most popular to the least popular.
--   When we add a new song to the hit parade, the song score is set to zero.
--   The song list is always sorted from the highest score song to the lowest.
--   We can increment the score by clicking the +1 button.
--   We wan delete a song from the list by clicking the bin icon.
--   We can filter the list, by searching for a song title
--   We can filter the list, by selecting a song style in the select.
--   When we click the _reset filters_ button, the filter form is reset, and the list comes back to normal.
--   The data will be saved on the localstorage (except when you filter data)
+## challenging part
+4. The most challenging part for me was the to get the deleting button working. In addition 
+, the link of the image url doesn't appear in the browser when I add it to the "hit parade". I stuck on that for more than an hour. Intead, I use image element, and commented out the real url. 
 
-### Tips :
-
--   Focus on the features first, and if you have some time left, try to replicate this design.
--   Start by choosing the song data structure, and create a few of them in the code.
--   Focus on your basic app functionality first, and then try to save the state of your app to _Local Storage_.
-
-Also, please update this readme with the answer to those questions before submitting the project.
-
-### Student report :
-
-1. In a few sentences, explain the structure of your project.
-
-2. If you had more time, what area of your project would you improve?
-
-3. Did you learn anything new while working on this project?
-
-4. What was the most challenging part for you?
-
-5. Would you like a new explanation about a specific topic?
-
-6. Any other comments?
-
-Fork this project and then clone your fork to your computer.
-
-I will download everybody's fork on **_Sunday at 5pm_**.
-
-Good luck everyone! 🔥
