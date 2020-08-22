@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./wkp8.css">
+    <title>WKP8</title>
+</head>
+
+<body>
+    <header>
+        <h1>Hit Parade</h1>
+    </header>
+    <section class="add-song-form">
+        <h2>Add a song</h2>
+        <form action="post">
+            <div>
+                <label for="title">Song title</label>
+                <input type="text" name="title" id="title" placeholder="Title">
+            </div>
+            <div>
+                <label for="name">Artist name</label>
+                <input type="text" name="name" id="name" placeholder="Artist name" required />
+            </div>
+            <div>
+                <label for="style">Song style</label>
+                <input list="browser" name="song-style" id="song-style" placeholder="Song style">
+                <datalist id="browser">
+                    <option value="Rock">
+                    <option value="Slow">
+                    <option value="Reggae">
+                    <option value="Classic">
+                    <option value="Hip pop">
+                    <option value="Christian">
+                </datalist>
+            </div>
+            <div>
+                <label for="length">Song length</label>
+                <input type="text" name="length" id="length" placeholder="Length" required>
+            </div>
+            <div>
+                <label for="name">Artist picture</label>
+                <input type="url" name="picture" id="artist-pic" placeholder="Url of an artist pic" required />
+            </div>
+            <div>
+                <button class="add-btn" type="submit">ADD</button>
+            </div>
+        </form>
+    </section>
+    <section class="search-bar">
+        <form class="search-bar-form">
+            <div>
+                <label for="title-song">Search a song ...</label>
+                <input type="text" id="title" name="title" placeholder="Enter a song title" required />
+            </div>
+            <div>
+                <label for="styles">Select a style</label>
+                <input list="browser" name="style" id="statusBook" placeholder="All styles">
+                <datalist id="browser">
+                    <option value="Rock">
+                    <option value="Slow">
+                    <option value="Reggae">
+                    <option value="Classic">
+                    <option value="Hip pop">
+                    <option value="Christian">
+                </datalist>
+            </div>
+            <div>
+                <button class="filter" type="reset">Reset filter</button>
+            </div>
+        </form>
+    </section>
+    <section class="show-list">
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>
