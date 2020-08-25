@@ -46,7 +46,14 @@ const showListOfSongs = () => {
                     <h3>${song.name}</h3>
                     <p>${song.length}</p>
                 </span>
-                <span> Score:</span>
+                <span> 
+                    Score:
+                    <p id="increment"> 0 </p>
+                </span>
+                <span>
+                    <input class="add-score" type="button" value="+1" onclick="add();"/>
+                </span>
+
                 <span>
                     <button value="${song.id}" class="delete" aria-label="Delete book ${song.title}">
                         <img src="./assets/trash.svg" alt="Delete" ${song.id} from the list/>
@@ -95,6 +102,14 @@ const deletedSong = idToDelete => {
     showList.dispatchEvent(new CustomEvent('listUpdated'));
     console.log(`this ${element}is deleted`);
 };
+
+// When the button is clicked, it will update the number
+let value = 0;
+
+function add() {
+    value++;
+    document.getElementById("increment").innerHTML = value;
+}
 
 
 // listen for the event
